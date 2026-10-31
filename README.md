@@ -56,6 +56,20 @@ and manages the reminder mechanism according to the programmed
 medication schedule. When a scheduled medication time is reached, the
 system activates the corresponding reminder mechanism.
 
+## Project Images
+
+### Hardware Implementation
+
+The following image shows the hardware implementation of the Smart Medicine Reminder System.
+
+![Project Setup](Images/project_setup.jpg)
+
+### Circuit Diagram
+
+The circuit diagram illustrates the hardware connections and interfacing between the Arduino UNO, 20×4 LCD display, and DS3231 RTC module.
+
+![Circuit Diagram](Images/circuit_diagram.jpg)
+
 ## Applications
 
 1.  Medication schedule management.
@@ -78,16 +92,14 @@ system activates the corresponding reminder mechanism.
 ``` text
 Smart-Medicine-Reminder-System/
 │
-├── Arduino-Code/
-│   └── medicine_reminder.ino
-│
-├── Presentation/
-│   └── project_presentation.pdf
-│
 ├── Images/
+│   ├── circuit_diagram.jpg
+│   ├── project_setup.jpg
+│   └── .gitkeep
 │
-└── README.md
-```
+├── README.md
+├── medicine_reminder.ino
+└── medicine_reminder_ppt.pptx
 
 ## Project Information
 
